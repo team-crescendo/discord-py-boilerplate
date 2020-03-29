@@ -31,21 +31,22 @@ $ pip install -r requirements.txt
 $ echo "BOT_TOKEN=your.bot.token" >> .env
 ```
 
-### Deployment
+## Deployment
 챗봇을 운영할 서버에 git 저장소를 생성하고, 다음 스크립트를 실행합니다.
 
 ```
 $ nohup python src/bot.py &
 ```
 
-### Built with
+## Built with
 * [discord.py](https://discordpy.readthedocs.io/en/latest/) - 디스코드 봇 API 래퍼
 * [Black](https://github.com/psf/black) - 파이썬 코드 포매터
 * [flake8](https://flake8.pycqa.org/en/latest/) - 파이썬 린터
 * [isort](https://github.com/timothycrosley/isort) - 파이썬 import문 정렬 라이브러리
 
-### Authors
-* @GBS-Skile, Technical Director of [Team Crescendo](https://github.com/team-crescendo)
+## Authors
+* [@GBS-Skile](https://github.com/GBS-Skile),
+Technical Director of [Team Crescendo](https://github.com/team-crescendo)
 
 ### License
 This project is licensed under the MIT License - see the
