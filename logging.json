@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "formatters": {
+    "basic": {
+      "format": "%(asctime)s:%(levelname)s:%(name)s: %(message)s",
+      "datefmt": "%Y-%m-%d %H:%M:%S"
+    }
+  },
+  "handlers": {
+    "bot": {
+      "class": "logging.FileHandler",
+      "filename": "bot.log",
+      "formatter": "basic",
+      "encoding": "utf-8"
+    }
+  },
+  "loggers": {
+    "bot": {
+      "handlers": [
+        "bot"
+      ],
+      "level": "INFO"
+    }
+  }
+}
