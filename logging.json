@@ -12,12 +12,17 @@
       "filename": "bot.log",
       "formatter": "basic",
       "encoding": "utf-8"
+    },
+    "console": {
+      "class": "logging.StreamHandler",
+      "level": "ERROR"
     }
   },
   "loggers": {
     "bot": {
       "handlers": [
-        "bot"
+        "bot",
+        "console"
       ],
       "level": "INFO"
     }
